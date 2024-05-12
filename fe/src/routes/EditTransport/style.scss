@@ -1,0 +1,21 @@
+.sec{
+    width: 1165px;
+    margin: 0px auto;
+}
+.transport-header{
+    padding: 16px;
+    border-radius: 16px;
+    margin: 8px;
+}
+
+.transport-input{
+    border: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 16px;
+    width: min-content;
+    height: min-content;
+    margin: 8px;
+    padding: 16px;
+    flex-grow: 1;
+}

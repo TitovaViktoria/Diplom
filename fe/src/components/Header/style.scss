@@ -1,0 +1,19 @@
+$header-padding-right : 10vw;
+
+.header {
+    padding-top: 3vh;
+    padding-left: 6vw;
+    padding-right: $header-padding-right;
+    position: relative;
+}
+    
+.header-link {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+    
+
+

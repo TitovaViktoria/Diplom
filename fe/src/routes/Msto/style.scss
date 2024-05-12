@@ -1,0 +1,21 @@
+.msto-conatainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10vh;
+    gap: 24px;
+}
+
+
+
+.msto-container{
+    position: relative;
+}
+
+.msto-title{
+    height: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}

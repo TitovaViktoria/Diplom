@@ -1,0 +1,26 @@
+@import "../../components/Header/style.scss";
+
+
+
+
+.main-button-group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 56vw;
+    padding-top: 27vh;
+    margin-right: 10px;
+    gap: 24px;
+}
+
+.main-button{
+    color: white; /* Цвет текста кнопки */
+    background-color: #FEC02C; /* Цвет заливки кнопки */
+    border-radius: 16px;
+    border-width: 0;
+    width: 510px;
+    height: 47px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.4rem;
+    
+}

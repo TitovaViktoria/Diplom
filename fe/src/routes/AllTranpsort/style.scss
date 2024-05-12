@@ -1,0 +1,48 @@
+.all-conatainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10vh;
+    gap: 24px;
+}
+
+
+// .butdton-group{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     padding-top: 4vh;
+//     margin: 0 auto;
+//     gap: 24px;
+// }
+
+.all-button{
+    color: white; /* Цвет текста кнопки */
+    background-color: #FEC02C; /* Цвет заливки кнопки */
+    border-radius: 16px;
+    border-width: 0;
+    width: 510px;
+    height: 47px;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 21px;
+    
+}
+
+.all-transport-container{
+    position: relative;
+}
+
+.all-transport-title{
+    height: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+.all-transport-filters-container{
+    display: flex;
+    flex-direction: row;
+}
