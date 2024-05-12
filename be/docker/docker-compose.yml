@@ -1,0 +1,12 @@
+version: '3'
+services:
+  prima-trans-postgres:
+    container_name: prima-trans-postgresql
+    image: postgres:15.0
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: prima-trans
+      POSTGRES_USER: prima-trans
+      POSTGRES_DB: PRIMA-TRANS
+    ports:
+      - 0.0.0.0:5432:5432

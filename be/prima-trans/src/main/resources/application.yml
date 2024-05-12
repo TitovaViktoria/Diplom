@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    username: prima-trans
+    password: prima-trans
+    url: jdbc:postgresql://localhost:5432/PRIMA-TRANS
+  jpa:
+    defer-datasource-initialization: false
+    hibernate:
+      ddl-auto: update
+
+
+springdoc:
+  swagger-ui:
+    path: /api.html
+    oauth:
+      flow: implicit
+      type: basic
+    docExpansion: none
+    tagsSorter: alpha
